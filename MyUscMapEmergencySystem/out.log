@@ -1,0 +1,170 @@
+2014-10-17 16:06:29 INFO  QueryDrawGeoEngine:82 - select b.shape,b.buildingID from mybuildings b
+2014-10-17 16:06:30 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems
+2014-10-17 16:06:30 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s
+2014-10-17 16:09:58 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(284,268,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(284,268,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(390,300,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:468 - select * from myannouncementsystems a where a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:440 - student size within broken emergency range: 7
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(412,378,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(412,378,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(362,267,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(362,267,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(378,280,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(378,280,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(384,214,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(384,214,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(422,344,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:00 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(422,344,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:01 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(439,318,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:01 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(439,318,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:01 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(476,258,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:10:01 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(476,258,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a5vhe                                             '
+2014-10-17 16:11:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=535,y=306]
+2014-10-17 16:11:56 INFO  Emergency:148 - point clicked: java.awt.Point[x=619,y=290]
+2014-10-17 16:14:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=414,y=341]
+2014-10-17 16:14:58 INFO  QueryDrawGeoEngine:82 - select b.shape,b.buildingID from mybuildings b
+2014-10-17 16:14:59 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 16:14:59 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems
+2014-10-17 16:14:59 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 16:14:59 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s
+2014-10-17 16:14:59 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 16:36:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=616,y=581]
+2014-10-17 16:36:31 INFO  QueryDrawGeoEngine:82 - select b.shape,b.buildingID from mybuildings b
+2014-10-17 16:36:32 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems
+2014-10-17 16:36:32 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s
+2014-10-17 16:37:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=638,y=527]
+2014-10-17 16:43:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=262,y=341]
+2014-10-17 16:43:10 INFO  Emergency:148 - point clicked: java.awt.Point[x=227,y=427]
+2014-10-17 16:43:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=224,y=303]
+2014-10-17 16:43:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=208,y=295]
+2014-10-17 16:43:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=210,y=282]
+2014-10-17 16:43:21 INFO  Emergency:148 - point clicked: java.awt.Point[x=171,y=260]
+2014-10-17 16:43:26 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:43:31 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE'AND sdo_nn(b.shape, sdo_geometry(2001, NULL, sdo_point_type(171, 260, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:43:45 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:43:46 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE' AND sdo_nn(a.center, sdo_geometry(2001, NULL, sdo_point_type(171, 260, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:43:47 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:43:49 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(121,260, 221,260, 171, 310)), 'mask=anyinteract')='TRUE'AND sdo_nn(s.shape, sdo_geometry(2001, NULL, sdo_point_type(171, 260, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=180,y=251]
+2014-10-17 16:44:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=196,y=227]
+2014-10-17 16:44:14 INFO  Emergency:148 - point clicked: java.awt.Point[x=257,y=180]
+2014-10-17 16:44:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=254,y=165]
+2014-10-17 16:44:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=238,y=179]
+2014-10-17 16:44:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=250,y=174]
+2014-10-17 16:44:21 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:21 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE'AND sdo_nn(b.shape, sdo_geometry(2001, NULL, sdo_point_type(250, 174, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:21 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:22 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE' AND sdo_nn(a.center, sdo_geometry(2001, NULL, sdo_point_type(250, 174, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:22 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:22 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(200,174, 300,174, 250, 224)), 'mask=anyinteract')='TRUE'AND sdo_nn(s.shape, sdo_geometry(2001, NULL, sdo_point_type(250, 174, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=523,y=379]
+2014-10-17 16:44:31 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:31 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE'AND sdo_nn(b.shape, sdo_geometry(2001, NULL, sdo_point_type(523, 379, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:32 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:32 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE' AND sdo_nn(a.center, sdo_geometry(2001, NULL, sdo_point_type(523, 379, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:32 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:32 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(473,379, 573,379, 523, 429)), 'mask=anyinteract')='TRUE'AND sdo_nn(s.shape, sdo_geometry(2001, NULL, sdo_point_type(523, 379, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:35 INFO  Emergency:148 - point clicked: java.awt.Point[x=213,y=303]
+2014-10-17 16:44:36 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:37 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE'AND sdo_nn(b.shape, sdo_geometry(2001, NULL, sdo_point_type(213, 303, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:37 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:37 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE' AND sdo_nn(a.center, sdo_geometry(2001, NULL, sdo_point_type(213, 303, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:44:37 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE'
+2014-10-17 16:44:38 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 4), sdo_ordinate_array(163,303, 263,303, 213, 353)), 'mask=anyinteract')='TRUE'AND sdo_nn(s.shape, sdo_geometry(2001, NULL, sdo_point_type(213, 303, NULL), NULL,NULL),'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:45:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=187,y=317]
+2014-10-17 16:45:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=304,y=228]
+2014-10-17 16:45:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=173,y=365]
+2014-10-17 16:45:47 INFO  Emergency:148 - point clicked: java.awt.Point[x=348,y=188]
+2014-10-17 16:45:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=596,y=295]
+2014-10-17 16:45:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=547,y=424]
+2014-10-17 16:45:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=343,y=424]
+2014-10-17 16:45:51 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(173,365 ,348,188 ,596,295 ,547,424 ,173,365 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:45:52 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(173,365 ,348,188 ,596,295 ,547,424 ,173,365 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:45:52 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(173,365 ,348,188 ,596,295 ,547,424 ,173,365 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:45:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=127,y=276]
+2014-10-17 16:45:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=387,y=176]
+2014-10-17 16:45:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=318]
+2014-10-17 16:46:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=488,y=494]
+2014-10-17 16:46:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=488,y=494]
+2014-10-17 16:46:01 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(127,276 ,387,176 ,600,318 ,488,494 ,127,276 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:46:02 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(127,276 ,387,176 ,600,318 ,488,494 ,127,276 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:46:02 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(127,276 ,387,176 ,600,318 ,488,494 ,127,276 )), 'mask=anyinteract')='TRUE'
+2014-10-17 16:46:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=198,y=309]
+2014-10-17 16:46:46 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(198,309,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:46:48 INFO  Emergency:148 - point clicked: java.awt.Point[x=164,y=278]
+2014-10-17 16:46:48 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(164,278,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:46:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=398,y=276]
+2014-10-17 16:46:50 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(398,276,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:46:52 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(398,276,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:46:53 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(390,300,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:46:55 INFO  Emergency:148 - point clicked: java.awt.Point[x=182,y=249]
+2014-10-17 16:46:55 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(182,249,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:46:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=101,y=344]
+2014-10-17 16:46:57 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(101,344,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=189,y=407]
+2014-10-17 16:47:02 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(189,407,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:04 INFO  Emergency:148 - point clicked: java.awt.Point[x=404,y=422]
+2014-10-17 16:47:04 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(404,422,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:05 INFO  Emergency:148 - point clicked: java.awt.Point[x=467,y=310]
+2014-10-17 16:47:05 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(467,310,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:07 INFO  Emergency:148 - point clicked: java.awt.Point[x=501,y=363]
+2014-10-17 16:47:07 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(501,363,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=648,y=366]
+2014-10-17 16:47:08 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(648,366,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:09 INFO  Emergency:148 - point clicked: java.awt.Point[x=756,y=356]
+2014-10-17 16:47:09 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(756,356,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:10 INFO  Emergency:148 - point clicked: java.awt.Point[x=628,y=514]
+2014-10-17 16:47:10 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(628,514,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:11 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(628,514,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:11 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(448,450,NULL), NULL,NULL), 'distance=50') = 'TRUE'
+2014-10-17 16:47:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=395,y=208]
+2014-10-17 16:47:16 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(395,208,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:17 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(395,208,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:17 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(390,300,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:47:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=515,y=162]
+2014-10-17 16:47:18 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(515,162,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:20 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(515,162,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:20 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(438,204,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:47:25 INFO  Emergency:148 - point clicked: java.awt.Point[x=430,y=181]
+2014-10-17 16:47:26 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(430,181,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:27 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(430,181,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:27 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(438,204,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:47:27 INFO  QueryDrawGeoEngine:468 - select * from myannouncementsystems a where a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:440 - student size within broken emergency range: 9
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(358,199,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(358,199,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(362,267,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(362,267,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(378,280,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:28 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(378,280,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:29 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(384,214,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:29 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(384,214,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:30 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(409,132,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:30 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(409,132,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(476,258,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(476,258,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(484,233,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(484,233,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(504,208,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(504,208,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(518,175,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:31 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(518,175,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a4hnb                                             '
+2014-10-17 16:47:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=472,y=189]
+2014-10-17 16:47:44 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(472,189,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:47 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(472,189,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:47:47 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(438,204,NULL), NULL,NULL), 'distance=100') = 'TRUE'
+2014-10-17 16:51:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=466,y=308]
+2014-10-17 16:51:19 INFO  Emergency:148 - point clicked: java.awt.Point[x=262,y=306]
+2014-10-17 16:51:19 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(262,306,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:51:20 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 16:51:22 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(262,306,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 16:51:22 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 16:51:22 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s where sdo_within_distance(s.shape, SDO_geometry(2001, NULL, SDO_point_type(263,358,NULL), NULL,NULL), 'distance=50') = 'TRUE'
+2014-10-17 16:51:22 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 16:51:22 INFO  QueryDrawGeoEngine:468 - select * from myannouncementsystems a where a.announcementSystemID != 'a6ssc                                             '
+2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:440 - student size within broken emergency range: 2
+2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(264,314,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
+2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(264,314,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
+2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(231,371,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
+2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(231,371,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
