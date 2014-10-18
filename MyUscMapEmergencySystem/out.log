@@ -168,3 +168,458 @@
 2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(264,314,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
 2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:450 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(231,371,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
 2014-10-17 16:51:23 INFO  QueryDrawGeoEngine:507 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(231,371,NULL), NULL,NULL),  'sdo_num_res=2') = 'TRUE' AND a.announcementSystemID != 'a6ssc                                             '
+2014-10-17 17:11:35 INFO  Emergency:148 - point clicked: java.awt.Point[x=461,y=212]
+2014-10-17 17:11:35 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(461,212,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:11:36 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:11:39 INFO  Emergency:148 - point clicked: java.awt.Point[x=144,y=254]
+2014-10-17 17:11:42 INFO  Emergency:148 - point clicked: java.awt.Point[x=657,y=254]
+2014-10-17 17:11:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=588,y=371]
+2014-10-17 17:11:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=588,y=371]
+2014-10-17 17:12:05 INFO  Emergency:148 - point clicked: java.awt.Point[x=447,y=285]
+2014-10-17 17:12:07 INFO  Emergency:148 - point clicked: java.awt.Point[x=607,y=98]
+2014-10-17 17:12:09 INFO  Emergency:148 - point clicked: java.awt.Point[x=798,y=349]
+2014-10-17 17:13:22 INFO  Emergency:148 - point clicked: java.awt.Point[x=354,y=385]
+2014-10-17 17:13:23 INFO  Emergency:148 - point clicked: java.awt.Point[x=422,y=375]
+2014-10-17 17:16:05 INFO  Emergency:148 - point clicked: java.awt.Point[x=281,y=293]
+2014-10-17 17:16:06 INFO  Emergency:148 - point clicked: java.awt.Point[x=540,y=198]
+2014-10-17 17:16:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=252,y=241]
+2014-10-17 17:16:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=483,y=165]
+2014-10-17 17:16:11 INFO  Emergency:148 - point clicked: java.awt.Point[x=413,y=467]
+2014-10-17 17:16:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=353,y=485]
+2014-10-17 17:16:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=624,y=384]
+2014-10-17 17:16:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=634,y=239]
+2014-10-17 17:16:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=589,y=183]
+2014-10-17 17:16:25 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(252,241 ,483,165 ,413,467 ,252,241 ,624,384 ,634,239 ,252,241 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:16:26 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:16:26 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(252,241 ,483,165 ,413,467 ,252,241 ,624,384 ,634,239 ,252,241 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:16:26 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:16:26 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(252,241 ,483,165 ,413,467 ,252,241 ,624,384 ,634,239 ,252,241 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:16:27 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:16:32 INFO  Emergency:148 - point clicked: java.awt.Point[x=360,y=288]
+2014-10-17 17:16:33 INFO  Emergency:148 - point clicked: java.awt.Point[x=215,y=157]
+2014-10-17 17:16:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=275,y=254]
+2014-10-17 17:17:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=644,y=362]
+2014-10-17 17:17:31 DEBUG Emergency:316 - clearing queryList
+2014-10-17 17:18:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=170]
+2014-10-17 17:18:31 DEBUG Emergency:316 - clearing queryList
+2014-10-17 17:18:31 INFO  Emergency:148 - point clicked: java.awt.Point[x=236,y=205]
+2014-10-17 17:18:32 INFO  Emergency:148 - point clicked: java.awt.Point[x=206,y=254]
+2014-10-17 17:18:33 INFO  Emergency:148 - point clicked: java.awt.Point[x=443,y=304]
+2014-10-17 17:18:34 INFO  Emergency:148 - point clicked: java.awt.Point[x=450,y=236]
+2014-10-17 17:18:40 DEBUG Emergency:316 - clearing queryList
+2014-10-17 17:18:41 INFO  Emergency:148 - point clicked: java.awt.Point[x=343,y=201]
+2014-10-17 17:19:31 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:19:31 INFO  Emergency:148 - point clicked: java.awt.Point[x=219,y=225]
+2014-10-17 17:19:32 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:19:33 INFO  Emergency:148 - point clicked: java.awt.Point[x=274,y=315]
+2014-10-17 17:19:46 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:19:47 INFO  Emergency:148 - point clicked: java.awt.Point[x=252,y=232]
+2014-10-17 17:19:49 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:19:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=188,y=237]
+2014-10-17 17:19:49 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(188,237,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:19:50 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:19:52 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:19:52 INFO  Emergency:148 - point clicked: java.awt.Point[x=224,y=210]
+2014-10-17 17:20:40 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:20:41 INFO  Emergency:148 - point clicked: java.awt.Point[x=453,y=292]
+2014-10-17 17:20:42 DEBUG Emergency:310 - clearing queryList
+2014-10-17 17:20:42 INFO  Emergency:148 - point clicked: java.awt.Point[x=133,y=213]
+2014-10-17 17:24:01 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:24:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=601,y=266]
+2014-10-17 17:24:03 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:24:03 INFO  Emergency:148 - point clicked: java.awt.Point[x=345,y=253]
+2014-10-17 17:24:05 INFO  Emergency:148 - point clicked: java.awt.Point[x=540,y=143]
+2014-10-17 17:24:11 INFO  Emergency:148 - point clicked: java.awt.Point[x=391,y=375]
+2014-10-17 17:24:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=316,y=306]
+2014-10-17 17:24:14 INFO  Emergency:148 - point clicked: java.awt.Point[x=241,y=155]
+2014-10-17 17:24:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=497,y=387]
+2014-10-17 17:25:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=585,y=139]
+2014-10-17 17:25:24 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:25:25 INFO  Emergency:148 - point clicked: java.awt.Point[x=305,y=254]
+2014-10-17 17:25:26 INFO  Emergency:148 - point clicked: java.awt.Point[x=514,y=186]
+2014-10-17 17:25:27 INFO  Emergency:148 - point clicked: java.awt.Point[x=234,y=150]
+2014-10-17 17:25:28 INFO  Emergency:148 - point clicked: java.awt.Point[x=510,y=265]
+2014-10-17 17:25:28 INFO  Emergency:148 - point clicked: java.awt.Point[x=510,y=265]
+2014-10-17 17:25:30 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:25:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=389,y=307]
+2014-10-17 17:25:30 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(389,307,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:25:31 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:25:35 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:25:38 INFO  Emergency:148 - point clicked: java.awt.Point[x=642,y=331]
+2014-10-17 17:25:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=260,y=329]
+2014-10-17 17:25:47 INFO  Emergency:148 - point clicked: java.awt.Point[x=239,y=184]
+2014-10-17 17:25:47 INFO  Emergency:148 - point clicked: java.awt.Point[x=550,y=119]
+2014-10-17 17:25:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=287,y=199]
+2014-10-17 17:25:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=536,y=301]
+2014-10-17 17:25:52 INFO  Emergency:148 - point clicked: java.awt.Point[x=483,y=333]
+2014-10-17 17:25:55 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:25:56 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:25:56 INFO  Emergency:148 - point clicked: java.awt.Point[x=188,y=273]
+2014-10-17 17:25:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=543,y=149]
+2014-10-17 17:25:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=535,y=312]
+2014-10-17 17:26:01 INFO  Emergency:148 - point clicked: java.awt.Point[x=534,y=319]
+2014-10-17 17:26:02 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:26:03 INFO  Emergency:148 - point clicked: java.awt.Point[x=282,y=235]
+2014-10-17 17:26:04 INFO  Emergency:148 - point clicked: java.awt.Point[x=461,y=139]
+2014-10-17 17:26:05 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(282,235 ,461,139 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:26:06 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:26:06 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(282,235 ,461,139 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:26:06 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:26:06 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(282,235 ,461,139 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:26:06 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:27:56 DEBUG Emergency:311 - clearing queryList
+2014-10-17 17:27:56 INFO  Emergency:148 - point clicked: java.awt.Point[x=256,y=273]
+2014-10-17 17:27:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=565,y=132]
+2014-10-17 17:27:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=570,y=373]
+2014-10-17 17:28:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=571,y=372]
+2014-10-17 17:28:06 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(256,273 ,565,132 ,570,373 ,256,273 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:28:07 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:28:07 INFO  QueryDrawGeoEngine:108 - select *  from myannouncementsystems a  where sdo_relate(a.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(256,273 ,565,132 ,570,373 ,256,273 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:28:07 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:28:07 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(256,273 ,565,132 ,570,373 ,256,273 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:28:08 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:29:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=273,y=249]
+2014-10-17 17:29:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=329,y=254]
+2014-10-17 17:29:48 DEBUG Emergency:312 - clearing queryList
+2014-10-17 17:29:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=183,y=341]
+2014-10-17 17:29:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=505,y=176]
+2014-10-17 17:29:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=505,y=176]
+2014-10-17 17:29:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=597,y=361]
+2014-10-17 17:29:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=273,y=240]
+2014-10-17 17:29:52 INFO  Emergency:148 - point clicked: java.awt.Point[x=273,y=240]
+2014-10-17 17:29:53 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(183,341 ,505,176 ,597,361 ,273,240 ,183,341 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:29:54 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:29:54 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(183,341 ,505,176 ,597,361 ,273,240 ,183,341 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:29:54 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:29:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=249,y=152]
+2014-10-17 17:29:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=526,y=148]
+2014-10-17 17:30:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=536,y=324]
+2014-10-17 17:30:01 INFO  Emergency:148 - point clicked: java.awt.Point[x=324,y=306]
+2014-10-17 17:30:01 INFO  Emergency:148 - point clicked: java.awt.Point[x=324,y=306]
+2014-10-17 17:30:02 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(249,152 ,526,148 ,536,324 ,324,306 ,249,152 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:30:02 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:30:02 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(249,152 ,526,148 ,536,324 ,324,306 ,249,152 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:30:03 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:30:08 DEBUG Emergency:312 - clearing queryList
+2014-10-17 17:30:08 DEBUG Emergency:312 - clearing queryList
+2014-10-17 17:30:10 INFO  Emergency:148 - point clicked: java.awt.Point[x=684,y=137]
+2014-10-17 17:30:11 INFO  Emergency:148 - point clicked: java.awt.Point[x=478,y=313]
+2014-10-17 17:31:32 DEBUG Emergency:314 - clearing queryList
+2014-10-17 17:31:33 INFO  Emergency:148 - point clicked: java.awt.Point[x=275,y=373]
+2014-10-17 17:31:34 DEBUG Emergency:314 - clearing queryList
+2014-10-17 17:31:35 INFO  Emergency:148 - point clicked: java.awt.Point[x=230,y=350]
+2014-10-17 17:31:36 INFO  Emergency:148 - point clicked: java.awt.Point[x=308,y=216]
+2014-10-17 17:31:38 INFO  Emergency:148 - point clicked: java.awt.Point[x=590,y=238]
+2014-10-17 17:31:40 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(230,350 ,308,216 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:31:41 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:31:42 INFO  Emergency:148 - point clicked: java.awt.Point[x=469,y=277]
+2014-10-17 17:31:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=104,y=201]
+2014-10-17 17:31:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=352,y=453]
+2014-10-17 17:31:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=675,y=319]
+2014-10-17 17:31:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=586,y=249]
+2014-10-17 17:31:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=584,y=251]
+2014-10-17 17:31:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=544,y=346]
+2014-10-17 17:31:52 INFO  Emergency:148 - point clicked: java.awt.Point[x=508,y=412]
+2014-10-17 17:31:53 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=391]
+2014-10-17 17:31:54 INFO  Emergency:148 - point clicked: java.awt.Point[x=567,y=474]
+2014-10-17 17:31:55 INFO  Emergency:148 - point clicked: java.awt.Point[x=564,y=464]
+2014-10-17 17:31:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=387,y=502]
+2014-10-17 17:31:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=342,y=350]
+2014-10-17 17:31:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=342,y=350]
+2014-10-17 17:31:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=342,y=350]
+2014-10-17 17:32:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=342,y=350]
+2014-10-17 17:32:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=342,y=350]
+2014-10-17 17:33:01 DEBUG Emergency:314 - clearing queryList
+2014-10-17 17:33:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=275,y=341]
+2014-10-17 17:33:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=532,y=166]
+2014-10-17 17:33:04 INFO  Emergency:148 - point clicked: java.awt.Point[x=622,y=376]
+2014-10-17 17:33:07 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(275,341 ,532,166 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:33:08 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:33:09 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(275,341 ,532,166 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:33:09 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:33:10 INFO  Emergency:148 - point clicked: java.awt.Point[x=551,y=370]
+2014-10-17 17:33:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=252,y=297]
+2014-10-17 17:33:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=468,y=163]
+2014-10-17 17:33:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=606,y=398]
+2014-10-17 17:33:30 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(551,370 ,252,297 ,468,163 ,551,370 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:33:31 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:34:45 INFO  Emergency:148 - point clicked: java.awt.Point[x=284,y=302]
+2014-10-17 17:34:45 ERROR Emergency:217 - [java.awt.Point[x=284,y=302]]
+2014-10-17 17:34:55 INFO  Emergency:148 - point clicked: java.awt.Point[x=558,y=219]
+2014-10-17 17:34:55 ERROR Emergency:217 - [java.awt.Point[x=284,y=302], java.awt.Point[x=558,y=219]]
+2014-10-17 17:34:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=562,y=429]
+2014-10-17 17:34:58 ERROR Emergency:217 - [java.awt.Point[x=284,y=302], java.awt.Point[x=558,y=219], java.awt.Point[x=562,y=429]]
+2014-10-17 17:35:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=562,y=429]
+2014-10-17 17:35:00 ERROR Emergency:217 - [java.awt.Point[x=284,y=302], java.awt.Point[x=558,y=219], java.awt.Point[x=562,y=429], java.awt.Point[x=284,y=302]]
+2014-10-17 17:37:19 DEBUG Emergency:317 - clearing queryList
+2014-10-17 17:37:20 INFO  Emergency:148 - point clicked: java.awt.Point[x=385,y=281]
+2014-10-17 17:37:20 ERROR Emergency:219 - [java.awt.Point[x=385,y=281]]
+2014-10-17 17:37:22 INFO  Emergency:148 - point clicked: java.awt.Point[x=626,y=152]
+2014-10-17 17:37:22 ERROR Emergency:219 - [java.awt.Point[x=385,y=281], java.awt.Point[x=626,y=152]]
+2014-10-17 17:37:24 INFO  Emergency:148 - point clicked: java.awt.Point[x=252,y=220]
+2014-10-17 17:37:24 ERROR Emergency:219 - [java.awt.Point[x=385,y=281], java.awt.Point[x=626,y=152], java.awt.Point[x=252,y=220]]
+2014-10-17 17:37:25 INFO  Emergency:148 - point clicked: java.awt.Point[x=252,y=220]
+2014-10-17 17:37:25 ERROR Emergency:219 - [java.awt.Point[x=385,y=281], java.awt.Point[x=626,y=152], java.awt.Point[x=252,y=220], java.awt.Point[x=385,y=281]]
+2014-10-17 17:37:29 INFO  Emergency:148 - point clicked: java.awt.Point[x=357,y=188]
+2014-10-17 17:37:29 ERROR Emergency:219 - [java.awt.Point[x=385,y=281], java.awt.Point[x=626,y=152], java.awt.Point[x=252,y=220], java.awt.Point[x=385,y=281], java.awt.Point[x=357,y=188]]
+2014-10-17 17:37:30 INFO  Emergency:148 - point clicked: java.awt.Point[x=597,y=161]
+2014-10-17 17:37:30 ERROR Emergency:219 - [java.awt.Point[x=385,y=281], java.awt.Point[x=626,y=152], java.awt.Point[x=252,y=220], java.awt.Point[x=385,y=281], java.awt.Point[x=357,y=188], java.awt.Point[x=597,y=161]]
+2014-10-17 17:37:31 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(385,281 ,626,152 ,252,220 ,385,281 ,357,188 ,597,161 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:37:32 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:37:39 INFO  Emergency:148 - point clicked: java.awt.Point[x=348,y=405]
+2014-10-17 17:37:39 ERROR Emergency:219 - [java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=350,y=222]
+2014-10-17 17:37:40 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222]]
+2014-10-17 17:37:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:40 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257]]
+2014-10-17 17:37:41 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:41 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:42 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:42 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:42 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:42 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:43 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:43 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:43 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:43 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:43 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:44 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:44 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:44 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:44 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:44 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:44 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:45 INFO  Emergency:148 - point clicked: java.awt.Point[x=676,y=257]
+2014-10-17 17:37:45 ERROR Emergency:219 - [java.awt.Point[x=348,y=405], java.awt.Point[x=350,y=222], java.awt.Point[x=676,y=257], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405], java.awt.Point[x=348,y=405]]
+2014-10-17 17:37:45 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(348,405 ,350,222 ,676,257 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 ,348,405 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:37:46 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:38:06 DEBUG Emergency:317 - clearing queryList
+2014-10-17 17:38:07 INFO  Emergency:148 - point clicked: java.awt.Point[x=623,y=165]
+2014-10-17 17:38:07 ERROR Emergency:219 - [java.awt.Point[x=623,y=165]]
+2014-10-17 17:38:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=242,y=231]
+2014-10-17 17:38:08 ERROR Emergency:219 - [java.awt.Point[x=623,y=165], java.awt.Point[x=242,y=231]]
+2014-10-17 17:38:37 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:38:37 INFO  Emergency:148 - point clicked: java.awt.Point[x=298,y=245]
+2014-10-17 17:38:37 ERROR Emergency:220 - [java.awt.Point[x=298,y=245]]
+2014-10-17 17:38:38 INFO  Emergency:148 - point clicked: java.awt.Point[x=612,y=174]
+2014-10-17 17:38:38 ERROR Emergency:220 - [java.awt.Point[x=298,y=245], java.awt.Point[x=612,y=174]]
+2014-10-17 17:38:39 INFO  Emergency:148 - point clicked: java.awt.Point[x=589,y=400]
+2014-10-17 17:38:39 ERROR Emergency:220 - [java.awt.Point[x=298,y=245], java.awt.Point[x=612,y=174], java.awt.Point[x=589,y=400]]
+2014-10-17 17:38:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=589,y=400]
+2014-10-17 17:38:40 ERROR Emergency:220 - [java.awt.Point[x=298,y=245], java.awt.Point[x=612,y=174], java.awt.Point[x=589,y=400], java.awt.Point[x=298,y=245]]
+2014-10-17 17:38:45 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(298,245 ,612,174 ,589,400 ,298,245 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:38:46 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:39:31 INFO  Emergency:148 - point clicked: java.awt.Point[x=250,y=182]
+2014-10-17 17:39:32 INFO  Emergency:148 - point clicked: java.awt.Point[x=573,y=232]
+2014-10-17 17:39:33 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:39:34 INFO  Emergency:148 - point clicked: java.awt.Point[x=172,y=240]
+2014-10-17 17:39:34 ERROR Emergency:220 - [java.awt.Point[x=172,y=240]]
+2014-10-17 17:39:37 INFO  Emergency:148 - point clicked: java.awt.Point[x=504,y=167]
+2014-10-17 17:39:37 ERROR Emergency:220 - [java.awt.Point[x=172,y=240], java.awt.Point[x=504,y=167]]
+2014-10-17 17:39:38 INFO  Emergency:148 - point clicked: java.awt.Point[x=483,y=355]
+2014-10-17 17:39:38 ERROR Emergency:220 - [java.awt.Point[x=172,y=240], java.awt.Point[x=504,y=167], java.awt.Point[x=483,y=355]]
+2014-10-17 17:39:40 INFO  Emergency:148 - point clicked: java.awt.Point[x=483,y=355]
+2014-10-17 17:39:40 ERROR Emergency:220 - [java.awt.Point[x=172,y=240], java.awt.Point[x=504,y=167], java.awt.Point[x=483,y=355], java.awt.Point[x=172,y=240]]
+2014-10-17 17:39:45 INFO  Emergency:148 - point clicked: java.awt.Point[x=251,y=166]
+2014-10-17 17:39:46 INFO  Emergency:148 - point clicked: java.awt.Point[x=326,y=393]
+2014-10-17 17:39:47 INFO  Emergency:148 - point clicked: java.awt.Point[x=456,y=251]
+2014-10-17 17:39:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=179,y=226]
+2014-10-17 17:39:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=498,y=347]
+2014-10-17 17:39:51 INFO  Emergency:148 - point clicked: java.awt.Point[x=267,y=468]
+2014-10-17 17:39:51 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:39:52 INFO  Emergency:148 - point clicked: java.awt.Point[x=199,y=337]
+2014-10-17 17:39:52 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(199,337,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:39:53 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:39:55 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:39:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=144,y=139]
+2014-10-17 17:39:58 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(144,139,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:39:58 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:39:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=598,y=346]
+2014-10-17 17:39:59 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(598,346,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:00 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:01 INFO  Emergency:148 - point clicked: java.awt.Point[x=424,y=110]
+2014-10-17 17:40:01 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(424,110,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:02 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=682,y=276]
+2014-10-17 17:40:03 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(682,276,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:03 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:04 INFO  Emergency:148 - point clicked: java.awt.Point[x=498,y=435]
+2014-10-17 17:40:04 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(498,435,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:04 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:05 INFO  Emergency:148 - point clicked: java.awt.Point[x=23,y=293]
+2014-10-17 17:40:05 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(23,293,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:06 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:06 INFO  Emergency:148 - point clicked: java.awt.Point[x=340,y=283]
+2014-10-17 17:40:06 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(340,283,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:06 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:08 INFO  Emergency:148 - point clicked: java.awt.Point[x=302,y=114]
+2014-10-17 17:40:08 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(302,114,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:09 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:10 INFO  Emergency:148 - point clicked: java.awt.Point[x=331,y=290]
+2014-10-17 17:40:10 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(331,290,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:10 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=182,y=383]
+2014-10-17 17:40:12 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(182,383,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:12 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=577,y=387]
+2014-10-17 17:40:13 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(577,387,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:13 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:15 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:15 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:16 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:16 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:16 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:16 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:17 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:17 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:17 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:17 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:17 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:17 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:17 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:17 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:18 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:18 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=600,y=177]
+2014-10-17 17:40:18 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(600,177,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:18 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=528,y=411]
+2014-10-17 17:40:18 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(528,411,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:18 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=528,y=411]
+2014-10-17 17:40:18 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(528,411,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:18 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:19 INFO  Emergency:148 - point clicked: java.awt.Point[x=528,y=411]
+2014-10-17 17:40:19 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(528,411,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:19 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:19 INFO  Emergency:148 - point clicked: java.awt.Point[x=528,y=411]
+2014-10-17 17:40:19 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(528,411,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:40:19 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:40:21 INFO  Emergency:148 - point clicked: java.awt.Point[x=349,y=249]
+2014-10-17 17:40:21 ERROR Emergency:220 - [java.awt.Point[x=349,y=249]]
+2014-10-17 17:40:23 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:40:23 DEBUG Emergency:318 - clearing queryList
+2014-10-17 17:40:24 INFO  Emergency:148 - point clicked: java.awt.Point[x=349,y=299]
+2014-10-17 17:40:24 ERROR Emergency:220 - [java.awt.Point[x=349,y=299]]
+2014-10-17 17:40:26 INFO  Emergency:148 - point clicked: java.awt.Point[x=427,y=453]
+2014-10-17 17:40:26 ERROR Emergency:220 - [java.awt.Point[x=349,y=299], java.awt.Point[x=427,y=453]]
+2014-10-17 17:40:27 INFO  Emergency:148 - point clicked: java.awt.Point[x=287,y=225]
+2014-10-17 17:40:27 ERROR Emergency:220 - [java.awt.Point[x=349,y=299], java.awt.Point[x=427,y=453], java.awt.Point[x=287,y=225]]
+2014-10-17 17:41:56 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:41:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=303,y=288]
+2014-10-17 17:41:57 ERROR Emergency:221 - [java.awt.Point[x=303,y=288]]
+2014-10-17 17:41:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=502,y=183]
+2014-10-17 17:41:58 ERROR Emergency:221 - [java.awt.Point[x=303,y=288], java.awt.Point[x=502,y=183]]
+2014-10-17 17:41:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=562,y=346]
+2014-10-17 17:41:59 ERROR Emergency:221 - [java.awt.Point[x=303,y=288], java.awt.Point[x=502,y=183], java.awt.Point[x=562,y=346]]
+2014-10-17 17:42:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=562,y=346]
+2014-10-17 17:42:00 ERROR Emergency:221 - [java.awt.Point[x=303,y=288], java.awt.Point[x=502,y=183], java.awt.Point[x=562,y=346], java.awt.Point[x=303,y=288]]
+2014-10-17 17:42:06 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(303,288 ,502,183 ,562,346 ,303,288 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:42:07 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:42:08 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(303,288 ,502,183 ,562,346 ,303,288 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:42:09 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:42:11 INFO  Emergency:148 - point clicked: java.awt.Point[x=589,y=250]
+2014-10-17 17:42:11 ERROR Emergency:221 - [java.awt.Point[x=589,y=250]]
+2014-10-17 17:42:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=379,y=246]
+2014-10-17 17:42:13 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246]]
+2014-10-17 17:42:14 INFO  Emergency:148 - point clicked: java.awt.Point[x=397,y=445]
+2014-10-17 17:42:14 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445]]
+2014-10-17 17:42:14 INFO  Emergency:148 - point clicked: java.awt.Point[x=581,y=436]
+2014-10-17 17:42:14 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250]]
+2014-10-17 17:42:15 INFO  Emergency:148 - point clicked: java.awt.Point[x=449,y=355]
+2014-10-17 17:42:15 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355]]
+2014-10-17 17:42:16 INFO  Emergency:148 - point clicked: java.awt.Point[x=222,y=236]
+2014-10-17 17:42:16 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236]]
+2014-10-17 17:42:17 INFO  Emergency:148 - point clicked: java.awt.Point[x=436,y=145]
+2014-10-17 17:42:17 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236], java.awt.Point[x=436,y=145]]
+2014-10-17 17:42:18 INFO  Emergency:148 - point clicked: java.awt.Point[x=436,y=145]
+2014-10-17 17:42:18 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236], java.awt.Point[x=436,y=145], java.awt.Point[x=589,y=250]]
+2014-10-17 17:42:19 INFO  Emergency:148 - point clicked: java.awt.Point[x=215,y=148]
+2014-10-17 17:42:19 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236], java.awt.Point[x=436,y=145], java.awt.Point[x=589,y=250], java.awt.Point[x=215,y=148]]
+2014-10-17 17:42:20 INFO  Emergency:148 - point clicked: java.awt.Point[x=264,y=423]
+2014-10-17 17:42:20 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236], java.awt.Point[x=436,y=145], java.awt.Point[x=589,y=250], java.awt.Point[x=215,y=148], java.awt.Point[x=264,y=423]]
+2014-10-17 17:42:21 INFO  Emergency:148 - point clicked: java.awt.Point[x=264,y=423]
+2014-10-17 17:42:21 ERROR Emergency:221 - [java.awt.Point[x=589,y=250], java.awt.Point[x=379,y=246], java.awt.Point[x=397,y=445], java.awt.Point[x=589,y=250], java.awt.Point[x=449,y=355], java.awt.Point[x=222,y=236], java.awt.Point[x=436,y=145], java.awt.Point[x=589,y=250], java.awt.Point[x=215,y=148], java.awt.Point[x=264,y=423], java.awt.Point[x=589,y=250]]
+2014-10-17 17:42:22 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(589,250 ,379,246 ,397,445 ,589,250 ,449,355 ,222,236 ,436,145 ,589,250 ,215,148 ,264,423 ,589,250 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:42:22 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:42:24 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:25 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:25 INFO  Emergency:148 - point clicked: java.awt.Point[x=512,y=267]
+2014-10-17 17:42:25 ERROR Emergency:221 - [java.awt.Point[x=512,y=267]]
+2014-10-17 17:42:26 INFO  Emergency:148 - point clicked: java.awt.Point[x=202,y=208]
+2014-10-17 17:42:26 ERROR Emergency:221 - [java.awt.Point[x=512,y=267], java.awt.Point[x=202,y=208]]
+2014-10-17 17:42:27 INFO  Emergency:148 - point clicked: java.awt.Point[x=538,y=451]
+2014-10-17 17:42:27 ERROR Emergency:221 - [java.awt.Point[x=512,y=267], java.awt.Point[x=202,y=208], java.awt.Point[x=538,y=451]]
+2014-10-17 17:42:28 INFO  Emergency:148 - point clicked: java.awt.Point[x=604,y=398]
+2014-10-17 17:42:28 ERROR Emergency:221 - [java.awt.Point[x=512,y=267], java.awt.Point[x=202,y=208], java.awt.Point[x=538,y=451], java.awt.Point[x=512,y=267]]
+2014-10-17 17:42:29 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:29 INFO  Emergency:148 - point clicked: java.awt.Point[x=171,y=376]
+2014-10-17 17:42:29 INFO  QueryDrawGeoEngine:108 - select * from myannouncementsystems a where sdo_nn(a.shape, SDO_geometry(2001, NULL, SDO_point_type(171,376,NULL), NULL,NULL),  'sdo_num_res=1') = 'TRUE'
+2014-10-17 17:42:30 INFO  DrawToGraphEngine:111 - drawing: announcement systems
+2014-10-17 17:42:30 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:31 INFO  Emergency:148 - point clicked: java.awt.Point[x=290,y=261]
+2014-10-17 17:42:33 INFO  Emergency:148 - point clicked: java.awt.Point[x=315,y=93]
+2014-10-17 17:42:34 INFO  Emergency:148 - point clicked: java.awt.Point[x=39,y=222]
+2014-10-17 17:42:35 INFO  Emergency:148 - point clicked: java.awt.Point[x=680,y=399]
+2014-10-17 17:42:37 INFO  Emergency:148 - point clicked: java.awt.Point[x=228,y=494]
+2014-10-17 17:42:39 INFO  Emergency:148 - point clicked: java.awt.Point[x=544,y=359]
+2014-10-17 17:42:43 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:44 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:45 INFO  Emergency:148 - point clicked: java.awt.Point[x=239,y=286]
+2014-10-17 17:42:46 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:47 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:48 INFO  Emergency:148 - point clicked: java.awt.Point[x=304,y=248]
+2014-10-17 17:42:49 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:49 INFO  Emergency:148 - point clicked: java.awt.Point[x=279,y=212]
+2014-10-17 17:42:50 INFO  Emergency:148 - point clicked: java.awt.Point[x=264,y=403]
+2014-10-17 17:42:52 INFO  QueryDrawGeoEngine:82 - select b.shape,b.buildingID from mybuildings b
+2014-10-17 17:42:52 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:42:52 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID from mystudents s
+2014-10-17 17:42:53 INFO  DrawToGraphEngine:138 - drawing: students
+2014-10-17 17:42:53 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:54 INFO  Emergency:148 - point clicked: java.awt.Point[x=286,y=296]
+2014-10-17 17:42:56 INFO  Emergency:148 - point clicked: java.awt.Point[x=541,y=364]
+2014-10-17 17:42:57 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:42:57 INFO  Emergency:148 - point clicked: java.awt.Point[x=287,y=244]
+2014-10-17 17:42:57 ERROR Emergency:221 - [java.awt.Point[x=287,y=244]]
+2014-10-17 17:42:58 INFO  Emergency:148 - point clicked: java.awt.Point[x=389,y=147]
+2014-10-17 17:42:58 ERROR Emergency:221 - [java.awt.Point[x=287,y=244], java.awt.Point[x=389,y=147]]
+2014-10-17 17:42:59 INFO  Emergency:148 - point clicked: java.awt.Point[x=540,y=407]
+2014-10-17 17:42:59 ERROR Emergency:221 - [java.awt.Point[x=287,y=244], java.awt.Point[x=389,y=147], java.awt.Point[x=540,y=407]]
+2014-10-17 17:43:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=540,y=407]
+2014-10-17 17:43:00 ERROR Emergency:221 - [java.awt.Point[x=287,y=244], java.awt.Point[x=389,y=147], java.awt.Point[x=540,y=407], java.awt.Point[x=287,y=244]]
+2014-10-17 17:43:00 INFO  Emergency:148 - point clicked: java.awt.Point[x=540,y=407]
+2014-10-17 17:43:00 ERROR Emergency:221 - [java.awt.Point[x=287,y=244], java.awt.Point[x=389,y=147], java.awt.Point[x=540,y=407], java.awt.Point[x=287,y=244], java.awt.Point[x=287,y=244]]
+2014-10-17 17:43:01 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:43:02 INFO  Emergency:148 - point clicked: java.awt.Point[x=297,y=246]
+2014-10-17 17:43:03 INFO  Emergency:148 - point clicked: java.awt.Point[x=502,y=422]
+2014-10-17 17:43:06 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:43:07 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:43:08 DEBUG Emergency:319 - clearing queryList
+2014-10-17 17:43:09 INFO  Emergency:148 - point clicked: java.awt.Point[x=222,y=359]
+2014-10-17 17:43:09 ERROR Emergency:221 - [java.awt.Point[x=222,y=359]]
+2014-10-17 17:43:12 INFO  Emergency:148 - point clicked: java.awt.Point[x=199,y=169]
+2014-10-17 17:43:12 ERROR Emergency:221 - [java.awt.Point[x=222,y=359], java.awt.Point[x=199,y=169]]
+2014-10-17 17:43:13 INFO  Emergency:148 - point clicked: java.awt.Point[x=495,y=286]
+2014-10-17 17:43:13 ERROR Emergency:221 - [java.awt.Point[x=222,y=359], java.awt.Point[x=199,y=169], java.awt.Point[x=495,y=286]]
+2014-10-17 17:43:14 INFO  Emergency:148 - point clicked: java.awt.Point[x=494,y=378]
+2014-10-17 17:43:14 ERROR Emergency:221 - [java.awt.Point[x=222,y=359], java.awt.Point[x=199,y=169], java.awt.Point[x=495,y=286], java.awt.Point[x=222,y=359]]
+2014-10-17 17:43:15 INFO  QueryDrawGeoEngine:82 - select  b.shape, b.buildingID  from  mybuildings b  where  sdo_relate(b.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(222,359 ,199,169 ,495,286 ,222,359 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:43:15 INFO  DrawToGraphEngine:126 - drawing: buildings
+2014-10-17 17:43:15 INFO  QueryDrawGeoEngine:56 - select s.shape, s.studentID  from mystudents s where sdo_relate(s.shape, sdo_geometry(2003, NULL, NULL, sdo_elem_info_array(1, 1003, 1), sdo_ordinate_array(222,359 ,199,169 ,495,286 ,222,359 )), 'mask=anyinteract')='TRUE'
+2014-10-17 17:43:15 INFO  DrawToGraphEngine:138 - drawing: students

@@ -28,7 +28,8 @@ Results of query are reflected on map.jpg;
 4. Usage and run: 
 	create db and user in oracle database
 	run mycreatedb.sql to create table, insert meta data and set indexes; 
-	load project to eclipse, add dependencies to class path and run emergency.java
+	load project to eclipse, run populate.java to load *.xy data to db
+	add dependencies to class path and run emergency.java to start app
 
 5. Dependencies 
 	sdoapi.jar(for spatial query), ojdbc6.jar(db driver)

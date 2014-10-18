@@ -167,14 +167,16 @@ public class Emergency {
 					dge.drawCircle(queryPointCenter, 50, Color.red);
 				} else if (queryMethod.equals("range")) {
 					// pointsList
-					imageLabel.setIcon(new ImageIcon(image));
+				
 					if (SwingUtilities.isLeftMouseButton(e)) {
 						// if submit, redraw old selected lines(remove selected
 						// feature from image
+						dge = new DrawToGraphEngine(image);
 						if (rangeSubmitFlag) {
 							try {
 								image = ImageIO.read(new File(mapPath));
 								imageLabel.setIcon(new ImageIcon(image));
+								pointsList.clear();
 								dge = new DrawToGraphEngine(image);
 								qdge = new QueryDrawGeoEngine(dge);
 							} catch (IOException ex) {
@@ -182,7 +184,7 @@ public class Emergency {
 							}
 							// if pointList is clear(beacuse other radio is
 							// selected, do not redraw
-							if (pointsList.size() > 0) {
+							if (pointsList.size() > 1) {
 								for (int i = 0; i < pointsList.size() - 1; i++) {
 									Point p1 = pointsList.get(i);
 									Point p2 = pointsList.get(i + 1);
@@ -194,6 +196,7 @@ public class Emergency {
 						}
 						pointsList.add(new Point(e.getX(), e.getY()));
 						if (pointsList.size() >= 2) {
+							imageLabel.setIcon(new ImageIcon(image));
 							dge.drawLine(
 									pointsList.get(pointsList.size() - 2).x,
 									pointsList.get(pointsList.size() - 2).y,
@@ -203,12 +206,14 @@ public class Emergency {
 						}
 					}
 					if (SwingUtilities.isRightMouseButton(e)
-							&& pointsList.size() > 2) {
-						Point first = pointsList.get(0);
-						Point last = pointsList.get(pointsList.size() - 1);
+							&& pointsList.size() >= 2) {
+						
+						pointsList.add(pointsList.get(0));
+						Point first = pointsList.get(pointsList.size() - 1);
+						Point last = pointsList.get(pointsList.size() - 2);
 						dge.drawLine(first.x, first.y, last.x, last.y,
 								Color.red);
-						pointsList.add(first);
+						imageLabel.setIcon(new ImageIcon(image));
 					}
 				} else if (queryMethod.equals("surround")
 						|| queryMethod.equals("emergency")) {
@@ -303,18 +308,19 @@ public class Emergency {
 			ab.addMouseListener(new MouseAdapter() {
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					BufferedImage image = null;
+
+					// reset queryGeo for next query
+					// queryGeo = "";
+					// reset pointsList for next range query
+					pointsList.clear();
+					queryPointCenter = null;
+					rangeSubmitFlag = false;
 					try {
 						image = ImageIO.read(new File(mapPath));
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
 					imageLabel.setIcon(new ImageIcon(image));
-					// reset queryGeo for next query
-					// queryGeo = "";
-					// reset pointsList for next range query
-					pointsList.clear();
-					queryPointCenter = null;
 				}
 			});
 		}
